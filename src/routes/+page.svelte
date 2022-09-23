@@ -2,4 +2,82 @@
 	import '../app.css';
 </script>
 
-HOME
+<div>
+	<p>
+		Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
+		Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole
+		photographer on the La Sportiva Solutions Climbing Tour in 2007. Lubbers went on to work in
+		<a
+			href="https://www.amazon.com/watches/s?k=watches"
+			aria-label="Amazon Watches"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Amazon&apos;s Largest Photo Studio
+		</a>
+		as a Digital Technician, Retoucher & Photographer for the Jewelry and Watch department. He was the
+		lead retoucher for the 2018 AD campaign for
+		<a
+			href="https://www.tempurpedic.com/"
+			aria-label="Tempurpedic"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Tempurpedic
+		</a>
+		. Wanting to add more to his career and an interest in Design and Web Development led him to Utah,
+		to take a 3 month intensive Full Stack Bootcamp at
+		<a
+			href="https://devmountain.com/"
+			aria-label="DevMountain Bootcamp"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			DevMountain
+		</a>
+		. After graduating
+		<a
+			href="https://devmountain.com/"
+			aria-label="DevMountain Bootcamp"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			DevMountain,
+		</a>
+		Dan moved to Upstate NY where he found
+		<a
+			href="https://albanycancode.org/"
+			aria-label="AlbanyCanCode Bootcamp"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			AlbanyCanCode
+		</a>
+		where he was able to refine his Javascript skills even further. In May 2020, Dan started as a Front-End
+		React Software Engineer with a small team building an end-to-end app for a Healthcare Company called
+		<a
+			href="https://app.psilife.com/"
+			aria-label="Psi Healthcare"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Psī.
+		</a>
+		Recently Dan has been working on data from the healthcare device
+		<a
+			href="https://ouraring.com/"
+			aria-label="Oura Ring"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Oura Ring,
+		</a> combining that with other data to personalize his own metrics for optimal health balance. A
+		love of good coffee usually leads one to find him at local coffee shops or making a brew on the hatch
+		of his vehicle while in remote locations. Other interests include Psychology, Philosophy, Meditation,
+		Spirituality, hot springs and asian cuisine. Go connect with him on social media!
+	</p>
+	<p class="my-4 flex justify-center">
+		&quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard James
+		Keenan
+	</p>
+</div>
