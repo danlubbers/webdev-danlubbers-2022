@@ -14,7 +14,7 @@
 	style="enable-background:new 0 0 1882.9 200.49;"
 	xml:space="preserve"
 >
-	<style type="text/css">
+	<style lang="css">
 		.st0 {
 			fill: #535453;
 		}

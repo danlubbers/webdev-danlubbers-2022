@@ -4,7 +4,7 @@
 
 <div class="max-w-full">
 	<header class="relative w-full px-8 pt-8 flex flex-row justify-between items-end z-10">
-		<Logo width="3000" />
+		<a href="/" class="w-full"><Logo width="3000" /></a>
 
 		<nav class="md:flex hidden">
 			<ul class="list-reset md:flex md:items-center ">
