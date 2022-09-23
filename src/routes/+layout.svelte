@@ -1,6 +1,10 @@
+<script>
+	import Logo from '$lib/logos/Logo.svelte';
+</script>
+
 <div class="max-w-full">
 	<header class="relative w-full px-8 pt-8 flex flex-row justify-between items-end z-10">
-		<a href="/"><h1 class="">LOGO</h1></a>
+		<Logo width="3000" />
 
 		<nav class="md:flex hidden">
 			<ul class="list-reset md:flex md:items-center ">
