@@ -1,0 +1,118 @@
+[
+	{
+		"name": "GIT",
+		"logo": "git-logo.png"
+	},
+	{
+		"name": "GITHUB",
+		"logo": "github-logo.svg"
+	},
+	{
+		"name": "REACT",
+		"logo": "react-logo.png"
+	},
+	{
+		"name": "GATSBY",
+		"logo": "gatsby-logo.png"
+	},
+	{
+		"name": "SVELTE",
+		"logo": "svelte-logo.png"
+	},
+	{
+		"name": "CONTENTFUL",
+		"logo": "contentful-logo.png"
+	},
+	{
+		"name": "HTML5",
+		"logo": "html5-logo.png"
+	},
+	{
+		"name": "CSS3",
+		"logo": "css3-logo.png"
+	},
+	{
+		"name": "SASS",
+		"logo": "sass-logo.svg"
+	},
+	{
+		"name": "JAVASCRIPT",
+		"logo": "javascript-logo.png"
+	},
+	{
+		"name": "TYPESCRIPT",
+		"logo": "typescript-logo.png"
+	},
+	{
+		"name": "MATERIAL UI",
+		"logo": "material-ui-logo.svg"
+	},
+	{
+		"name": "TAILWIND CSS",
+		"logo": "tailwind-css-logo.svg"
+	},
+	{
+		"name": "GRAPHQL",
+		"logo": "graphql-logo.svg"
+	},
+	{
+		"name": "REDUX",
+		"logo": "redux-logo.png"
+	},
+	{
+		"name": "NODE",
+		"logo": "node-logo.png"
+	},
+	{
+		"name": "PM2",
+		"logo": "pm2.png"
+	},
+	{
+		"name": "NGINX",
+		"logo": "nginx-logo.png"
+	},
+	{
+		"name": "DIGITAL OCEAN",
+		"logo": "digital-ocean-logo.png"
+	},
+	{
+		"name": "NETLIFY",
+		"logo": "netlify-logo.png"
+	},
+	{
+		"name": "POSTGRESQL",
+		"logo": "postgresql-logo.png"
+	},
+	{
+		"name": "POSTMAN",
+		"logo": "postman-logo.png"
+	},
+	{
+		"name": "EXPRESS",
+		"logo": "express-logo.png"
+	},
+	{
+		"name": "JEST",
+		"logo": "jest-logo.svg"
+	},
+	{
+		"name": "CAPTUREONE",
+		"logo": "capture-one-logo.png"
+	},
+	{
+		"name": "HELICON FOCUS",
+		"logo": "helicon-logo.png"
+	},
+	{
+		"name": "ADOBE LIGHTROOM",
+		"logo": "adobe-lightroom-logo.png"
+	},
+	{
+		"name": "ADOBE PHOTOSHOP",
+		"logo": "adobe-photoshop-logo.png"
+	},
+	{
+		"name": "ADOBE XD",
+		"logo": "adobe-xd-logo.png"
+	}
+]

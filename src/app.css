@@ -3,27 +3,26 @@
 @tailwind utilities;
 
 html {
-	margin: auto 0;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
 body {
+	margin: 0;
 	width: 1280px;
-	display: flex;
-	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 25px;
 	letter-spacing: 2px;
 	color: #969696;
 	background-color: #0e0e0e;
+	overflow: hidden;
 }
 
 a {
-	margin: auto 0;
+	margin: 0;
 	padding: 0;
-	color: #777777;
+	color: #808080;
 	text-decoration: none;
 }
 

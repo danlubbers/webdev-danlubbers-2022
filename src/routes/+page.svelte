@@ -1,12 +1,8 @@
-<script>
-	import '../app.css';
-</script>
-
-<div>
+<div class="mt-8 flex flex-col">
 	<p>
 		Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
-		Retouching. Lubbers got his start with Extreme Sports Photography when he was the sole
-		photographer on the La Sportiva Solutions Climbing Tour in 2007. Lubbers went on to work in
+		Retouching. Dan got his start with Extreme Sports Photography when he was the sole photographer
+		on the La Sportiva Solutions Climbing Tour in 2007. Dan went on to work in
 		<a
 			href="https://www.amazon.com/watches/s?k=watches"
 			aria-label="Amazon Watches"
@@ -70,13 +66,12 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			Oura Ring,
-		</a> combining that with other data to personalize his own metrics for optimal health balance. A
-		love of good coffee usually leads one to find him at local coffee shops or making a brew on the hatch
-		of his vehicle while in remote locations. Other interests include Psychology, Philosophy, Meditation,
-		Spirituality, hot springs and asian cuisine. Go connect with him on social media!
+			Ōura Ring,
+		</a> combining that with other data to personalize his own metrics for optimal health balance. Interests
+		include psychology, meditation, breathwork, hot springs, foraging fungi and being in nature. Go connect
+		with him on social media!
 	</p>
-	<p class="my-4 flex justify-center">
+	<p class="my-10 flex justify-center">
 		&quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard James
 		Keenan
 	</p>

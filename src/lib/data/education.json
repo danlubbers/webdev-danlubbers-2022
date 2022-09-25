@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Udemy",
+		"url": "https://www.udemy.com/certificate/UC-1e4de543-34d4-4ebf-971f-754e948f41c1/",
+		"description": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2021!",
+		"location": "Online",
+		"date": "2021"
+	},
+	{
+		"name": "Udemy",
+		"url": "https://www.udemy.com/certificate/UC-43ca759e-0fd8-45eb-8778-7d0ce7c6012d/",
+		"description": "Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+		"location": "Online",
+		"date": "2021"
+	},
+	{
+		"name": "Udemy",
+		"url": "https://www.udemy.com/certificate/UC-7a29f481-8700-45ab-b34a-27ba68d7143c/",
+		"description": "The Complete JavaScript Course 2021",
+		"location": "Online",
+		"date": "2021"
+	},
+	{
+		"name": "AlbanyCanCode",
+		"url": "https://albanycancode.org/",
+		"description": "JavaScript Engineering Program",
+		"location": "Albany, NY",
+		"date": "2019"
+	},
+	{
+		"name": "DevMountain",
+		"url": "https://devmountain.com/",
+		"description": "Full-Stack Web Development Program",
+		"location": "Provo, UT",
+		"date": "2018"
+	},
+	{
+		"name": "Bellarmine University",
+		"url": "https://www.bellarmine.edu/",
+		"description": "Bachelor of Fine Arts: Psychology & Sculpture",
+		"location": "Louisville, KY",
+		"date": "2005"
+	}
+]
