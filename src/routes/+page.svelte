@@ -1,8 +1,21 @@
 <div class="mt-8 flex flex-col">
 	<p>
-		Dan Lubbers is a Full Stack Web Developer with an extensive background in Photography &
-		Retouching. Dan got his start with Extreme Sports Photography when he was the sole photographer
-		on the La Sportiva Solutions Climbing Tour in 2007. Dan went on to work in
+		Dan Lubbers is a Full stack web developer with 15+ years of experience photographing and
+		retouching in the studio commercial, editorial and outdoor gear industries. Collaborated with
+		highly satisfied clients to meet their exact needs and exceed expectations.
+	</p>
+	<br />
+	<p>
+		Dan got his start with Extreme Sports Photography when he was the sole photographer on the
+		<a
+			href="https://www.sportiva.com/"
+			aria-label="La Sportiva"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			La Sportiva
+		</a>
+		Solutions Climbing Tour in 2007. Dan went on to work in
 		<a
 			href="https://www.amazon.com/watches/s?k=watches"
 			aria-label="Amazon Watches"
@@ -21,8 +34,8 @@
 		>
 			Tempurpedic
 		</a>
-		. Wanting to add more to his career and an interest in Design and Web Development led him to Utah,
-		to take a 3 month intensive Full Stack Bootcamp at
+		. Wanting to add more to his career and an interest in Web Development led him to Utah, to take a
+		3 month intensive Full Stack Bootcamp at
 		<a
 			href="https://devmountain.com/"
 			aria-label="DevMountain Bootcamp"
