@@ -29,4 +29,5 @@ a {
 a:hover {
 	color: #a52a25;
 	cursor: pointer;
+	transition: 0.5s ease-in-out;
 }

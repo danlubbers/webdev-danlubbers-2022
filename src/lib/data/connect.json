@@ -1,7 +1,8 @@
 [
-	{ "name": "github", "url": "https://github.com/danlubbers", "logo": null },
-	{ "name": "linkedIn", "url": "https://www.linkedin.com/in/danlubbers/", "logo": null },
-	{ "name": "codewars", "url": "https://www.codewars.com/users/danlubbers/", "logo": null },
-	{ "name": "medium", "url": "https://medium.com/@lubbers.dan", "logo": null },
-	{ "name": "instagram", "url": "https://instagram.com/danlubbers", "logo": null }
+	{ "name": "Github", "url": "https://github.com/danlubbers", "logo": null },
+	{ "name": "LinkedIn", "url": "https://www.linkedin.com/in/danlubbers/", "logo": null },
+	{ "name": "Codewars", "url": "https://www.codewars.com/users/danlubbers/", "logo": null },
+	{ "name": "Medium", "url": "https://medium.com/@lubbers.dan", "logo": null },
+	{ "name": "Instagram", "url": "https://instagram.com/danlubbers", "logo": null },
+	{ "name": "Photography", "url": "https://danlubbersphotographs.com", "logo": null }
 ]
