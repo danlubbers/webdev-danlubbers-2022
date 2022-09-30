@@ -23,29 +23,38 @@
 
 <div class="w-full relative flex flex-col overflow-x-hidden" id="carousel-container">
 	<div class="flex flex-row flex-nowrap" id="carousel-projects">
-		{#each projects as project}
+		{#each projects as { client, position, tech, details, githubRepo, image, url }}
 			<div class="px-10 min-w-full flex flex-col text-left">
 				<div class="flex flex-row items-end">
-					<p class="text-xl">{project.client}: &ensp;</p>
-					<p>{project.position}</p>
+					<p class="text-xl">{client}: &ensp;</p>
+					<p>{position}</p>
 				</div>
 				<br />
 
 				<h1 class="text-center">Tech:</h1>
-				<p class="text-center">{project.tech}</p>
+				<p class="text-center">{tech}</p>
 				<br />
 
 				<h1 class="text-center">Details:</h1>
-				<p class="text-left">{project.details}</p>
+				<p class="text-left">{details}</p>
 				<br />
 
-				{#if project['github-repo']}
-					<a href={project['github-repo']}><h1>GITHUB REPO</h1></a>
+				{#if githubRepo}
+					<a href={githubRepo}><h1>GITHUB REPO</h1></a>
 				{/if}
 
-				{#if project.image}
+				{#if image}
 					<div class="w-full mt-10 flex justify-center">
-						<img class="w-1/2" src={project.image} />
+						{#if url}
+							<a
+								href={`https://${url}`}
+								class="flex justify-center"
+								target="_blank"
+								rel="noreferrer"><img class="w-1/2" src={image} alt={client} /></a
+							>
+						{:else}
+							<img class="w-1/2" src={image} alt={client} />
+						{/if}
 					</div>
 				{/if}
 			</div>
