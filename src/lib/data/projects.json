@@ -2,10 +2,10 @@
 	{
 		"client": "Ōura ring",
 		"position": "Full Stack: Personal Side Project",
-		"tech": "Git | Github | React | HTML | CSS/SASS | ES6+ Javascript | Typescript",
+		"tech": "Git | Github | React | HTML | CSS/SASS | ES6+ Javascript | Typescript | Recharts",
 		"details": "Using Oura rings API, I created my own Health App using my personal data inconjunction with adding other metrics which Oura does not offer, like Bedroom Temperature and Humidity which additionally play a key role in sleep and overall Health and wellbeing. ",
 		"github-repo": "https://github.com/danlubbers/oura-ring",
-		"image": "",
+		"image": "src/lib/images/oura-weekly-promo.png",
 		"website": ""
 	},
 	{
