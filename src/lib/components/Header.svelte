@@ -2,7 +2,7 @@
 	import Logo from '$lib/logos/Logo.svelte';
 </script>
 
-<header class="relative w-full h-24 px-8 pt-8 flex flex-row justify-between items-end z-10">
+<header class="relative w-full h-18 mb-12 px-8 pt-8 flex flex-row justify-between items-end z-10">
 	<a href="/" class="w-full"><Logo width="3500" /></a>
 
 	<nav class="md:flex hidden">

@@ -4,12 +4,24 @@
 	const leftArrow = () => {
 		projects = [projects[projects.length - 1], ...projects.slice(0, projects.length - 1)];
 	};
+
 	const rightArrow = () => {
 		projects = [...projects.slice(1, projects.length), projects[0]];
 	};
+
+	const keyDown = (e) => {
+		if (e.key === 'ArrowLeft') {
+			projects = [projects[projects.length - 1], ...projects.slice(0, projects.length - 1)];
+		}
+		if (e.key === 'ArrowRight') {
+			projects = [...projects.slice(1, projects.length), projects[0]];
+		}
+	};
 </script>
 
-<div class="w-full mt-20 relative flex flex-col overflow-x-hidden" id="carousel-container">
+<svelte:window on:keydown|preventDefault={keyDown} />
+
+<div class="w-full relative flex flex-col overflow-x-hidden" id="carousel-container">
 	<div class="flex flex-row flex-nowrap" id="carousel-projects">
 		{#each projects as project}
 			<div class="px-10 min-w-full flex flex-col text-left">
