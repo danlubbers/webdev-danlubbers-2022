@@ -1,4 +1,4 @@
-<div class="mt-8 flex flex-col">
+<div class="flex flex-col">
 	<p>
 		Dan Lubbers is a Full stack web developer with 15+ years of experience photographing and
 		retouching in the studio commercial, editorial and outdoor gear industries. Collaborated with
@@ -84,7 +84,7 @@
 		include psychology, meditation, breathwork, hot springs, foraging fungi and being in nature. Go connect
 		with him on social media!
 	</p>
-	<p class="my-10 flex justify-center">
+	<p class="mt-10 pb-10 sm:pb-0 flex justify-center">
 		&quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard James
 		Keenan
 	</p>
