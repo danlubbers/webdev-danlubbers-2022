@@ -1,8 +1,8 @@
 [
 	{
 		"client": "Ōura ring",
-		"position": "Full Stack: Personal Side Project",
-		"tech": "Git | Github | React | HTML | CSS/SASS | ES6+ Javascript | Typescript | Recharts",
+		"position": "Personal Side Project",
+		"tech": "Git | Github | React | HTML | CSS/SASS | ES6+ Javascript | Typescript | Recharts | Node",
 		"details": "Using Oura rings API, I created my own Health App using my personal data inconjunction with adding other metrics which Oura does not offer, like Bedroom Temperature and Humidity which additionally play a key role in sleep and overall Health and wellbeing. ",
 		"githubRepo": "https://github.com/danlubbers/oura-ring",
 		"image": "src/lib/images/oura-weekly-promo.png",
@@ -19,7 +19,7 @@
 	},
 	{
 		"client": "Dan Lubbers Photographs",
-		"position": "Full-Stack Software Engineer | UX / UI | Photographer / Retoucher",
+		"position": "Software Engineer | UX / UI | Photographer / Retoucher",
 		"tech": "Gatsby | Typescript | GraphQL | React Helmet | Google Analytics | Netlify",
 		"details": "danlubbersphotographs.com is written in Typescript using Gatsby, data is queried using GraphQL and hosted on Netlify. The site is a fully functioning PWA (Progressive Web Application) ready to download to your mobile device. User is prompted through a Modal created by a React Portal checking the devices specs and through the use of localStorage the PWA modal will only show after 30 days of inactivity. I am proud to say that I achieved all 100% scores across Google's Lighthouse Audit Metrics. Additionally a 100% performance rating on GTMetrix. A screenshot of these scores can be seen in the readme.md file by clicking on the Github Repo link below.",
 		"githubRepo": "https://github.com/danlubbers/danlubbersphotographs.com",
@@ -28,7 +28,7 @@
 	},
 	{
 		"client": "Sunny Ra",
-		"position": "Full-Stack Software Engineer | UX / UI | Photographer",
+		"position": "Software Engineer | UX / UI | Photographer",
 		"tech": "React | HTML | SASS | Javascript | Redux | Express | React Helmet | PostgreSQL | Digital Ocean | Google Analytics",
 		"details": "Client/Artist, Sunny Ra wanted a complete redesign of her portfolio site. I created the wireframe and designed the layout and color scheme. I photographed her portrait for the 'About' section. I then built her site using Reactjs. I made the site fully responsive using Media Queries in SASS. I used React Helmet so google would be able to crawl her site searching for keywords helping SEO (Seach Engine Optimization). I added Google Analytics so Sunny can track her traffic going to her new site.",
 		"githubRepo": "https://github.com/danlubbers/sunny-ra.com",
