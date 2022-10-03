@@ -1,5 +1,5 @@
 <script>
-	import Logo from '$lib/logos/Logo.svelte';
+	import Logo from '$lib/components/Logo.svelte';
 	import { page } from '$app/stores';
 
 	const nav = [
