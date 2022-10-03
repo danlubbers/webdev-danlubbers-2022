@@ -32,10 +32,10 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			Tempurpedic
+			Tempurpedic.
 		</a>
-		. Wanting to add more to his career and an interest in Web Development led him to Utah, to take a
-		3 month intensive Full Stack Bootcamp at
+		Wanting to add more to his career and an interest in Web Development led him to Utah, to take a 3
+		month intensive Full Stack Bootcamp at
 		<a
 			href="https://devmountain.com/"
 			aria-label="DevMountain Bootcamp"

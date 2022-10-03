@@ -40,7 +40,9 @@
 				<br />
 
 				{#if githubRepo}
-					<a href={githubRepo}><h1>GITHUB REPO</h1></a>
+					<div class="w-1/6">
+						<a href={githubRepo}><h1>GITHUB REPO</h1></a>
+					</div>
 				{/if}
 
 				{#if image}
