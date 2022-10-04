@@ -63,8 +63,12 @@
 			<div class="last:hidden md:hidden border border-linkGrey" />
 		{/each}
 	</div>
-	<button on:click={leftArrow}><div class="leftChevron hidden md:block" /></button>
-	<button on:click={rightArrow}><div class="rightChevron hidden md:block" /></button>
+	<button on:click={leftArrow} aria-label="Left Arrow"
+		><div class="leftChevron hidden md:block" /></button
+	>
+	<button on:click={rightArrow} aria-label="Right Arrow"
+		><div class="rightChevron hidden md:block" /></button
+	>
 </div>
 
 <style>
