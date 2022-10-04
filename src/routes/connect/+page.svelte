@@ -5,7 +5,7 @@
 <div class="w-full mb-5 flex flex-col justify-start">
 	<p class="md:pl-5 font-medium">
 		Email:{` `}
-		<a href="mailto:lubbers.dan@gmail.com?subject=Mailed from danlubbersphotographs.com">
+		<a href="mailto:lubbers.dan@gmail.com?subject=Mailed from Dan Lubbers Web Development site.com">
 			lubbers.dan@gmail.com
 		</a>
 	</p>
