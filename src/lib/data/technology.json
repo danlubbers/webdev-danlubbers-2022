@@ -1,122 +1,122 @@
 [
 	{
 		"name": "GIT",
-		"logo": "src/lib/logos/git-logo.png"
+		"logo": "git-logo.png"
 	},
 	{
 		"name": "GITHUB",
-		"logo": "src/lib/logos/github-logo.svg"
+		"logo": "github-logo.svg"
 	},
 	{
 		"name": "HTML5",
-		"logo": "src/lib/logos/html5-logo.png"
+		"logo": "html5-logo.png"
 	},
 	{
 		"name": "CSS3",
-		"logo": "src/lib/logos/css3-logo.png"
+		"logo": "css3-logo.png"
 	},
 	{
 		"name": "SASS",
-		"logo": "src/lib/logos/sass-logo.svg"
+		"logo": "sass-logo.svg"
 	},
 	{
 		"name": "MATERIAL UI",
-		"logo": "src/lib/logos/material-ui-logo.svg"
+		"logo": "material-ui-logo.svg"
 	},
 	{
 		"name": "TAILWIND CSS",
-		"logo": "src/lib/logos/tailwindcss_logo.png"
+		"logo": "tailwindcss_logo.png"
 	},
 	{
 		"name": "JAVASCRIPT",
-		"logo": "src/lib/logos/javascript-logo.png"
+		"logo": "javascript-logo.png"
 	},
 	{
 		"name": "TYPESCRIPT",
-		"logo": "src/lib/logos/typescript-logo.png"
+		"logo": "typescript-logo.png"
 	},
 	{
 		"name": "REACT",
-		"logo": "src/lib/logos/react-logo.png"
+		"logo": "react-logo.png"
 	},
 	{
 		"name": "GATSBY",
-		"logo": "src/lib/logos/gatsby-logo.png"
+		"logo": "gatsby-logo.png"
 	},
 	{
 		"name": "SVELTEKIT",
-		"logo": "src/lib/logos/svelte-logo.png"
+		"logo": "svelte-logo.png"
 	},
 	{
 		"name": "CONTENTFUL",
-		"logo": "src/lib/logos/contentful-logo.png"
+		"logo": "contentful-logo.png"
 	},
 	{
 		"name": "GRAPHQL",
-		"logo": "src/lib/logos/graphql-logo.svg"
+		"logo": "graphql-logo.svg"
 	},
 	{
 		"name": "REDUX",
-		"logo": "src/lib/logos/redux-logo.png"
+		"logo": "redux-logo.png"
 	},
 	{
 		"name": "NODE",
-		"logo": "src/lib/logos/node-logo.png"
+		"logo": "node-logo.png"
 	},
 	{
 		"name": "EXPRESS",
-		"logo": "src/lib/logos/express-logo.png"
+		"logo": "express-logo.png"
 	},
 	{
 		"name": "PM2",
-		"logo": "src/lib/logos/pm2.png"
+		"logo": "pm2.png"
 	},
 	{
 		"name": "NGINX",
-		"logo": "src/lib/logos/nginx-logo.png"
+		"logo": "nginx-logo.png"
 	},
 	{
 		"name": "HEROKU",
-		"logo": "src/lib/logos/heroku-logo.png"
+		"logo": "heroku-logo.png"
 	},
 	{
 		"name": "DIGITAL OCEAN",
-		"logo": "src/lib/logos/digital-ocean-logo.png"
+		"logo": "digital-ocean-logo.png"
 	},
 	{
 		"name": "NETLIFY",
-		"logo": "src/lib/logos/netlify-logo.png"
+		"logo": "netlify-logo.png"
 	},
 	{
 		"name": "POSTGRESQL",
-		"logo": "src/lib/logos/postgresql-logo.png"
+		"logo": "postgresql-logo.png"
 	},
 	{
 		"name": "POSTMAN",
-		"logo": "src/lib/logos/postman-logo.png"
+		"logo": "postman-logo.png"
 	},
 	{
 		"name": "JEST",
-		"logo": "src/lib/logos/jest-logo.svg"
+		"logo": "jest-logo.svg"
 	},
 	{
 		"name": "CAPTUREONE",
-		"logo": "src/lib/logos/capture-one-logo.png"
+		"logo": "capture-one-logo.png"
 	},
 	{
 		"name": "HELICON FOCUS",
-		"logo": "src/lib/logos/helicon-logo.png"
+		"logo": "helicon-logo.png"
 	},
 	{
 		"name": "ADOBE LIGHTROOM",
-		"logo": "src/lib/logos/adobe-lightroom-logo.png"
+		"logo": "adobe-lightroom-logo.png"
 	},
 	{
 		"name": "ADOBE PHOTOSHOP",
-		"logo": "src/lib/logos/adobe-photoshop-logo.png"
+		"logo": "adobe-photoshop-logo.png"
 	},
 	{
 		"name": "ADOBE XD",
-		"logo": "src/lib/logos/adobe-xd-logo.png"
+		"logo": "adobe-xd-logo.png"
 	}
 ]

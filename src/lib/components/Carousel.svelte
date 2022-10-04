@@ -51,10 +51,11 @@
 								href={`https://${url}`}
 								class="flex justify-center"
 								target="_blank"
-								rel="noreferrer"><img class="w-full md:w-2/3" src={image} alt={client} /></a
+								rel="noreferrer"
+								><img class="w-full md:w-2/3" src={`images/${image}`} alt={client} /></a
 							>
 						{:else}
-							<img class="w-full md:w-1/2" src={image} alt={client} />
+							<img class="w-full md:w-1/2" src={`images/${image}`} alt={client} />
 						{/if}
 					</div>
 				{/if}
