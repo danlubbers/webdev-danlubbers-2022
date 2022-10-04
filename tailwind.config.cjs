@@ -7,7 +7,7 @@ module.exports = {
 				fontGrey: '#969696',
 				linkGrey: '#808080',
 				bgGrey: '#0e0e0e',
-				siteRed: '#a52a25;'
+				siteRed: '#fb3831;'
 			}
 		}
 	},

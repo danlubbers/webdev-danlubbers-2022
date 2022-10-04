@@ -60,7 +60,7 @@
 
 <style>
 	.active {
-		color: #a52a25;
+		color: #fb3831;
 	}
 	span {
 		display: block;
