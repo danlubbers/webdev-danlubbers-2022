@@ -16,7 +16,12 @@
 <header
 	class="relative w-full flex flex-col items-center md:flex-row md:justify-between md:items-end justify-center z-10"
 >
-	<a class="w-full max-w-md px-8 pt-8 pr-2 pl-6" href="/" on:click={() => (showMobileNav = false)}>
+	<a
+		class="w-full max-w-md px-8 pt-8 pr-2 pl-6"
+		href="/"
+		on:click={() => (showMobileNav = false)}
+		alt="site logo"
+	>
 		<Logo width="2000" />
 	</a>
 	<nav class="mt-8 flex items-center justify-center md:hidden">
