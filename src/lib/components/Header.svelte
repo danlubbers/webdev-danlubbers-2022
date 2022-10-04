@@ -9,8 +9,18 @@
 		{ title: 'CONNECT', path: '/connect' }
 	];
 
+	let activeHamburger = false;
 	let showMobileNav = false;
-	const mobileNavHandler = () => (showMobileNav = !showMobileNav);
+
+	const mobileNavHandler = () => {
+		showMobileNav = !showMobileNav;
+		activeHamburger = !activeHamburger;
+	};
+
+	const resetDefaults = () => {
+		showMobileNav = false;
+		activeHamburger = false;
+	};
 </script>
 
 <header
@@ -19,16 +29,16 @@
 	<a
 		class="w-full max-w-md px-8 pt-8 pr-2 pl-6"
 		href="/"
-		on:click={() => (showMobileNav = false)}
+		on:click={resetDefaults}
 		aria-label="Click to go to home screen"
 	>
 		<Logo width="2000" />
 	</a>
 	<nav class="mt-8 flex items-center justify-center md:hidden">
 		<div class="h-10 grid place-items-center" on:click={mobileNavHandler}>
-			<span />
-			<span />
-			<span />
+			<span class:active={activeHamburger} />
+			<span class:active={activeHamburger} />
+			<span class:active={activeHamburger} />
 		</div>
 	</nav>
 	{#if showMobileNav}
@@ -36,10 +46,8 @@
 			<ul class="flex flex-col items-center">
 				{#each nav as { title, path }}
 					<li class="my-2 text-2xl">
-						<a
-							class:active={$page.url.pathname === path}
-							href={path}
-							on:click={() => (showMobileNav = false)}>{title}</a
+						<a class:active={$page.url.pathname === path} href={path} on:click={resetDefaults}
+							>{title}</a
 						>
 					</li>
 				{/each}
@@ -47,7 +55,7 @@
 		</div>
 	{:else}
 		<nav class="md:flex hidden">
-			<ul class="list-reset md:flex md:items-center ">
+			<ul class="list-reset md:flex md:items-center pr-6">
 				{#each nav as { title, path }}
 					<li class="md:ml-4">
 						<a class:active={$page.url.pathname === path} href={path}>{title}</a>
@@ -68,5 +76,20 @@
 		height: 0.1rem;
 		background: #969696;
 		transition: all 0.2s ease-in-out;
+	}
+
+	.active:nth-child(1) {
+		width: 3rem;
+		transform-origin: center center;
+		transform: rotate(-45deg) translate(-0.3rem, 0.9rem);
+	}
+	.active:nth-child(2) {
+		opacity: 0;
+		transform: translate(1rem);
+	}
+	.active:nth-child(3) {
+		width: 3rem;
+		transform-origin: center center;
+		transform: rotate(45deg) translate(-0.2rem, -0.9rem);
 	}
 </style>
