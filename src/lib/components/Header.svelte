@@ -20,7 +20,7 @@
 		class="w-full max-w-md px-8 pt-8 pr-2 pl-6"
 		href="/"
 		on:click={() => (showMobileNav = false)}
-		alt="site logo"
+		aria-label="Click to go to home screen"
 	>
 		<Logo width="2000" />
 	</a>
