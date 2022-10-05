@@ -1,4 +1,8 @@
 <script>
+	import Icon from 'svelte-awesome';
+	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
+	import chevronRight from 'svelte-awesome/icons/chevronRight';
+
 	export let projects;
 
 	const leftArrow = () => {
@@ -63,34 +67,10 @@
 			<div class="last:hidden md:hidden border border-linkGrey" />
 		{/each}
 	</div>
-	<button on:click={leftArrow} aria-label="Left Arrow"
-		><div class="leftChevron hidden md:block" /></button
+	<button class="absolute top-1/4 left-2" on:click={leftArrow} aria-label="Left Arrow"
+		><Icon data={chevronLeft} scale={1.5} /></button
 	>
-	<button on:click={rightArrow} aria-label="Right Arrow"
-		><div class="rightChevron hidden md:block" /></button
+	<button class="absolute top-1/4 right-2" on:click={rightArrow} aria-label="Right Arrow"
+		><Icon data={chevronRight} scale={1.5} /></button
 	>
 </div>
-
-<style>
-	.leftChevron {
-		position: absolute;
-		top: 25%;
-		left: 8px;
-		border-right: 2px solid #969696;
-		border-bottom: 2px solid #969696;
-		width: 16px;
-		height: 16px;
-		transform: rotate(-225deg);
-	}
-
-	.rightChevron {
-		position: absolute;
-		top: 25%;
-		right: 8px;
-		border-right: 2px solid #969696;
-		border-bottom: 2px solid #969696;
-		width: 16px;
-		height: 16px;
-		transform: rotate(-45deg);
-	}
-</style>
