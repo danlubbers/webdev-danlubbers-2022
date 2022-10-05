@@ -67,10 +67,14 @@
 			<div class="last:hidden md:hidden border border-linkGrey" />
 		{/each}
 	</div>
-	<button class="absolute top-1/4 left-2" on:click={leftArrow} aria-label="Left Arrow"
-		><Icon data={chevronLeft} scale={1.5} /></button
+	<button
+		class="hidden md:block absolute top-1/4 left-2"
+		on:click={leftArrow}
+		aria-label="Left Arrow"><Icon data={chevronLeft} scale={1.5} /></button
 	>
-	<button class="absolute top-1/4 right-2" on:click={rightArrow} aria-label="Right Arrow"
-		><Icon data={chevronRight} scale={1.5} /></button
+	<button
+		class="hidden md:block absolute top-1/4 right-2"
+		on:click={rightArrow}
+		aria-label="Right Arrow"><Icon data={chevronRight} scale={1.5} /></button
 	>
 </div>
