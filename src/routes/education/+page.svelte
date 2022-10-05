@@ -1,6 +1,13 @@
 <script>
+	import SEO from '$lib/components/SEO.svelte';
 	import education from '$lib/data/education.json';
+
+	const pageTitle = 'Dan Lubbers | Education';
+	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
+	const siteLanguage = 'en';
 </script>
+
+<SEO {pageTitle} {metadescription} {siteLanguage} />
 
 <ul class="w-full">
 	{#each education as { name, url, description, location, date }}

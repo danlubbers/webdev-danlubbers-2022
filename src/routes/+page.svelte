@@ -1,3 +1,13 @@
+<script>
+	import SEO from '$lib/components/SEO.svelte';
+
+	const pageTitle = 'Dan Lubbers | Web Developer';
+	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
+	const siteLanguage = 'en';
+</script>
+
+<SEO {pageTitle} {metadescription} {siteLanguage} />
+
 <div class="flex flex-col">
 	<p>
 		Dan Lubbers is a Full stack web developer with 15+ years of experience photographing and
