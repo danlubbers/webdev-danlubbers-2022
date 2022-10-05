@@ -34,11 +34,11 @@
 				</div>
 				<br />
 
-				<h1 class="mt-6 md:mt-0 text-center">Tech:</h1>
+				<h1 class="mb-2 md:mt-0 text-center">Tech:</h1>
 				<p class="text-center">{tech}</p>
 				<br />
 
-				<h1 class="mt-6 md:mt-0 text-center">Details:</h1>
+				<h1 class="mb-2 md:mt-0 text-center">Details:</h1>
 				<p class="text-left">{details}</p>
 				<br />
 
