@@ -82,7 +82,7 @@
 		>
 			Psī.
 		</a>
-		Recently Dan has been working on data from the healthcare device
+		Dan worked on data from his healthcare device
 		<a
 			href="https://ouraring.com/"
 			aria-label="Oura Ring"
@@ -90,9 +90,22 @@
 			rel="noopener noreferrer"
 		>
 			Ōura Ring,
-		</a> combining that with other data to personalize his own metrics for optimal health balance. Interests
-		include psychology, meditation, breathwork, hot springs, foraging fungi and being in nature. Go connect
-		with him on social media!
+		</a>
+		combining that with other external data to personalize his own metrics for optimal health balance
+		during 2022. In Nov. 2022, Dan joined a new startup,
+		<a
+			href="https://github.com/existential-engineering"
+			aria-label="existential engineering"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			"Existential Engineering."
+		</a>
+	</p>
+	<br />
+	<p>
+		Interests include psychology, meditation, breathwork, hot springs, foraging fungi and being in
+		nature. Go connect with him on social media!
 	</p>
 	<p class="mt-10 pb-10 sm:pb-0 flex justify-center">
 		&quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard James
