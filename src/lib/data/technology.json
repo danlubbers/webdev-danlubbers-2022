@@ -40,6 +40,10 @@
 		"logo": "react-logo.png"
 	},
 	{
+		"name": "REMIX",
+		"logo": "remix-logo.svg"
+	},
+	{
 		"name": "GATSBY",
 		"logo": "gatsby-logo.png"
 	},
@@ -48,20 +52,36 @@
 		"logo": "svelte-logo.png"
 	},
 	{
-		"name": "CONTENTFUL",
-		"logo": "contentful-logo.png"
-	},
-	{
-		"name": "GRAPHQL",
-		"logo": "graphql-logo.svg"
-	},
-	{
 		"name": "REDUX",
 		"logo": "redux-logo.png"
 	},
 	{
 		"name": "NODE",
 		"logo": "node-logo.png"
+	},
+	{
+		"name": "SUPABASE",
+		"logo": "supabase-logo.png"
+	},
+	{
+		"name": "PRISMA",
+		"logo": "prisma-logo.png"
+	},
+	{
+		"name": "GRAPHQL",
+		"logo": "graphql-logo.svg"
+	},
+	{
+		"name": "CONTENTFUL",
+		"logo": "contentful-logo.png"
+	},
+	{
+		"name": "POSTGRESQL",
+		"logo": "postgresql-logo.png"
+	},
+	{
+		"name": "HEROKU",
+		"logo": "heroku-logo.png"
 	},
 	{
 		"name": "EXPRESS",
@@ -76,20 +96,12 @@
 		"logo": "nginx-logo.png"
 	},
 	{
-		"name": "HEROKU",
-		"logo": "heroku-logo.png"
-	},
-	{
 		"name": "DIGITAL OCEAN",
 		"logo": "digital-ocean-logo.png"
 	},
 	{
 		"name": "NETLIFY",
 		"logo": "netlify-logo.png"
-	},
-	{
-		"name": "POSTGRESQL",
-		"logo": "postgresql-logo.png"
 	},
 	{
 		"name": "POSTMAN",
