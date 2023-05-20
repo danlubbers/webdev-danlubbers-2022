@@ -75,12 +75,12 @@
 		{/each}
 	</div>
 	<button
-		class="hidden md:block absolute top-2/3 left-2"
+		class="hidden md:block absolute top-2/3 left-0"
 		on:click={leftArrow}
 		aria-label="Left Arrow"><Icon data={chevronLeft} scale={1.5} /></button
 	>
 	<button
-		class="hidden md:block absolute top-2/3 right-2"
+		class="hidden md:block absolute top-2/3 right-0"
 		on:click={rightArrow}
 		aria-label="Right Arrow"><Icon data={chevronRight} scale={1.5} /></button
 	>
