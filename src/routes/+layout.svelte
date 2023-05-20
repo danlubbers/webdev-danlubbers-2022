@@ -8,7 +8,7 @@
 <Analytics />
 <Header />
 
-<main class="my-8 mx-10 h-screen grid-rows-auto flex justify-center">
+<main class="m-6 h-screen grid-rows-auto flex justify-center">
 	<slot />
 </main>
 
