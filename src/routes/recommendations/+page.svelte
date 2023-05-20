@@ -47,7 +47,21 @@
 <SEO {pageTitle} {metadescription} {siteLanguage} />
 
 <div class="w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
-	<div class="flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
+	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
+		{#each recommendationList as { name, title, linkedInURL, recommendationText }}
+			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col justify-end">
+				<div class="w-full mt-10">
+					<a href={linkedInURL} class="flex flex-col items-center" target="_blank" rel="noreferrer">
+						<h1 class="text-xl font-bold">{name}:</h1>
+						<h3 class="my-2">Title: {title}</h3>
+					</a>
+					<p>"{recommendationText}"</p>
+				</div>
+			</div>
+			<div class="last:hidden md:hidden border border-linkGrey" />
+		{/each}
+	</div>
+	<div class="hidden md:flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each recommendationList as { name, image, linkedInURL }}
 			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col justify-end">
 				<div class="w-full mt-10 flex justify-center">
