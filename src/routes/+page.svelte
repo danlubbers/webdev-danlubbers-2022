@@ -95,7 +95,7 @@
 		( a healthcare tracking device) combining his Ōura data with additional external data to personalize
 		his own metrics for optimal health balance for sleep. In Nov. 2022, Dan joined a new startup,
 		<a
-			href="https://github.com/existential-engineering"
+			href="https://existential.engineering/"
 			aria-label="existential engineering"
 			target="_blank"
 			rel="noopener noreferrer"
