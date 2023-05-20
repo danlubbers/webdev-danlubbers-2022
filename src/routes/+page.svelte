@@ -1,4 +1,5 @@
 <script>
+	import Recommendations from '$lib/components/Recommendations.svelte';
 	import SEO from '$lib/components/SEO.svelte';
 
 	const pageTitle = 'Dan Lubbers | Web Developer';
@@ -10,7 +11,7 @@
 
 <div class="flex flex-col">
 	<p>
-		Dan Lubbers is a Full stack web developer with 15+ years of experience photographing and
+		Dan Lubbers is a Full stack web developer with 17+ years of experience photographing and
 		retouching in the studio commercial, editorial and outdoor gear industries. Collaborated with
 		highly satisfied clients to meet their exact needs and exceed expectations.
 	</p>
@@ -72,7 +73,7 @@
 		>
 			AlbanyCanCode
 		</a>
-		where he was able to refine his Javascript skills even further. In May 2020, Dan started as a Front-End
+		and was able to refine his Javascript skills even further. In May 2020, Dan was contracted as a Front-End
 		React Software Engineer with a small team building an end-to-end app for a Healthcare Company called
 		<a
 			href="https://app.psilife.com/"
@@ -82,7 +83,7 @@
 		>
 			Psī.
 		</a>
-		Dan worked on data from his healthcare device
+		In 2022, Dan worked on his personal data from
 		<a
 			href="https://ouraring.com/"
 			aria-label="Oura Ring"
@@ -91,8 +92,8 @@
 		>
 			Ōura Ring,
 		</a>
-		combining that with other external data to personalize his own metrics for optimal health balance
-		during 2022. In Nov. 2022, Dan joined a new startup,
+		( a healthcare tracking device) combining his Ōura data with additional external data to personalize
+		his own metrics for optimal health balance for sleep. In Nov. 2022, Dan joined a new startup,
 		<a
 			href="https://github.com/existential-engineering"
 			aria-label="existential engineering"
@@ -103,12 +104,13 @@
 		</a>
 	</p>
 	<br />
-	<p>
-		Interests include psychology, meditation, breathwork, hot springs, foraging fungi and being in
-		nature. Go connect with him on social media!
+	<p class="text-center">
+		Psychology | Meditation | Yoga | BreathWork | Photography | Retouching | Backpacking | Hiking |
+		Snowshoeing | Cortados | Asian Food
 	</p>
-	<p class="mt-10 pb-10 sm:pb-0 flex justify-center">
+	<p class="mt-10 pb-10 sm:pb-0 text-center">
 		&quot;Life is too short not to create something with every breath we draw.&quot; ~ Maynard James
 		Keenan
 	</p>
+	<Recommendations />
 </div>

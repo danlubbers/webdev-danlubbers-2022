@@ -10,7 +10,6 @@
 	const siteLanguage = 'en';
 
 	let recommendationList = recommendations;
-	console.log('recommendationList', recommendationList);
 
 	const leftArrow = () => {
 		recommendationList = [
@@ -46,7 +45,9 @@
 
 <SEO {pageTitle} {metadescription} {siteLanguage} />
 
-<div class="w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
+<div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
+	<div class=" border border-linkGrey" />
+	<h1 class="text-xl mt-10 text-center">Recommendations:</h1>
 	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each recommendationList as { name, title, linkedInURL, recommendationText }}
 			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col justify-end">
@@ -63,10 +64,10 @@
 	</div>
 	<div class="hidden md:flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each recommendationList as { name, image, linkedInURL }}
-			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col justify-end">
-				<div class="w-full mt-10 flex justify-center">
+			<div class="min-w-full flex flex-col justify-end">
+				<div class="w-full flex justify-center">
 					<a href={linkedInURL} class="flex justify-center" target="_blank" rel="noreferrer">
-						<img class="p-10" src={`images/recommendations/${image}`} alt={name} />
+						<img class="px-10 pt-2" src={`images/recommendations/${image}`} alt={name} />
 					</a>
 				</div>
 			</div>
@@ -74,12 +75,12 @@
 		{/each}
 	</div>
 	<button
-		class="hidden md:block absolute top-1/4 left-2"
+		class="hidden md:block absolute top-2/3 left-2"
 		on:click={leftArrow}
 		aria-label="Left Arrow"><Icon data={chevronLeft} scale={1.5} /></button
 	>
 	<button
-		class="hidden md:block absolute top-1/4 right-2"
+		class="hidden md:block absolute top-2/3 right-2"
 		on:click={rightArrow}
 		aria-label="Right Arrow"><Icon data={chevronRight} scale={1.5} /></button
 	>
