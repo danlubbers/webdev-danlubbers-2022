@@ -53,7 +53,7 @@
 			<div class="first:mt-0 mb-10 min-w-full flex flex-col justify-end">
 				<div class="w-full mt-10">
 					<a href={linkedInURL} class="flex flex-col items-center" target="_blank" rel="noreferrer">
-						<h1 class="text-xl font-bold">{name}:</h1>
+						<h1 class="text-xl font-bold">{name}</h1>
 						<h3 class="my-2">Title: {title}</h3>
 					</a>
 					<p>"{recommendationText}"</p>
