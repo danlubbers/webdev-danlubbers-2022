@@ -50,7 +50,7 @@
 	<h1 class="text-xl mt-10 text-center">Recommendations:</h1>
 	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each recommendationList as { name, title, linkedInURL, recommendationText }}
-			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col justify-end">
+			<div class="first:mt-0 mb-10 min-w-full flex flex-col justify-end">
 				<div class="w-full mt-10">
 					<a href={linkedInURL} class="flex flex-col items-center" target="_blank" rel="noreferrer">
 						<h1 class="text-xl font-bold">{name}:</h1>
