@@ -23,7 +23,7 @@
 	};
 </script>
 
-<svelte:window on:keydown|preventDefault={keyDown} />
+<svelte:window on:keydown={keyDown} />
 
 <div class="w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class="flex flex-col md:flex-row flex-nowrap" id="carousel-projects">

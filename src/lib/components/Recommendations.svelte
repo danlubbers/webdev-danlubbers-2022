@@ -41,7 +41,7 @@
 	};
 </script>
 
-<svelte:window on:keydown|preventDefault={keyDown} />
+<svelte:window on:keydown={keyDown} />
 
 <!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
 
