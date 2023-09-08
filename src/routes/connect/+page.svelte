@@ -1,5 +1,5 @@
 <script lang="ts">
-	// import SEO from '$lib/components/SEO.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 	import socialMedia from '$lib/data/connect.json';
 	import Icon from 'svelte-awesome';
 	import githubSquare from 'svelte-awesome/icons/githubSquare';
@@ -9,9 +9,8 @@
 	import camera from 'svelte-awesome/icons/camera';
 	import cog from 'svelte-awesome/icons/cog';
 
-	// const pageTitle = 'Dan Lubbers | Connect Page';
-	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	// const siteLanguage = 'en';
+	const pageTitle = 'Dan Lubbers | Connect';
+	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
 
 	const logoLoop = (logo: string | null) => {
 		switch (logo) {
@@ -31,7 +30,7 @@
 	};
 </script>
 
-<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
+<SEO {pageTitle} {metadescription} />
 
 <div class="w-full mb-5 flex flex-col justify-start">
 	<p class="md:pl-5 font-medium">

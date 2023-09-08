@@ -1,13 +1,8 @@
 <script lang="ts">
-	// import SEO from '$lib/components/SEO.svelte';
 	import recommendations from '$lib/data/recommendations.json';
 	import Icon from 'svelte-awesome';
 	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
 	import chevronRight from 'svelte-awesome/icons/chevronRight';
-
-	// const pageTitle = 'Dan Lubbers | Recommendations Page';
-	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	// const siteLanguage = 'en';
 
 	let recommendationList = recommendations;
 
@@ -42,8 +37,6 @@
 </script>
 
 <svelte:window on:keydown={keyDown} />
-
-<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
 
 <div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class=" border border-linkGrey" />

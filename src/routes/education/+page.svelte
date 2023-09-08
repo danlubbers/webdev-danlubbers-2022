@@ -1,13 +1,12 @@
 <script lang="ts">
-	// import SEO from '$lib/components/SEO.svelte';
+	import SEO from '$lib/components/SEO.svelte';
 	import education from '$lib/data/education.json';
 
-	// const pageTitle = 'Dan Lubbers | Education';
-	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	// const siteLanguage = 'en';
+	const pageTitle = 'Dan Lubbers | Education';
+	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
 </script>
 
-<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
+<SEO {pageTitle} {metadescription} />
 
 <ul class="w-full">
 	{#each education as { name, url, description, location, date }}
