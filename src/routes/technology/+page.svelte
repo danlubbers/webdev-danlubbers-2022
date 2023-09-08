@@ -1,13 +1,13 @@
-<script>
-	import SEO from '$lib/components/SEO.svelte';
+<script lang="ts">
+	// import SEO from '$lib/components/SEO.svelte';
 	import technologies from '$lib/data/technology.json';
 
-	const pageTitle = 'Dan Lubbers | Technology Page';
-	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	const siteLanguage = 'en';
+	// const pageTitle = 'Dan Lubbers | Technology Page';
+	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
+	// const siteLanguage = 'en';
 </script>
 
-<SEO {pageTitle} {metadescription} {siteLanguage} />
+<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
 
 <div class="w-full h-1/2 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-items-center">
 	{#each technologies as { name, logo }}

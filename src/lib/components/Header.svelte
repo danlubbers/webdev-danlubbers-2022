@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Logo from '$lib/components/Logo.svelte';
 	import { page } from '$app/stores';
 

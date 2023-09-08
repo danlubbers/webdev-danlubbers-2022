@@ -1,13 +1,13 @@
-<script>
-	import SEO from '$lib/components/SEO.svelte';
+<script lang="ts">
+	// import SEO from '$lib/components/SEO.svelte';
 	import recommendations from '$lib/data/recommendations.json';
 	import Icon from 'svelte-awesome';
 	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
 	import chevronRight from 'svelte-awesome/icons/chevronRight';
 
-	const pageTitle = 'Dan Lubbers | Recommendations Page';
-	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	const siteLanguage = 'en';
+	// const pageTitle = 'Dan Lubbers | Recommendations Page';
+	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
+	// const siteLanguage = 'en';
 
 	let recommendationList = recommendations;
 
@@ -25,7 +25,7 @@
 		];
 	};
 
-	const keyDown = (e) => {
+	const keyDown = (e: any) => {
 		if (e.key === 'ArrowLeft') {
 			recommendationList = [
 				recommendationList[recommendationList.length - 1],
@@ -43,9 +43,9 @@
 
 <svelte:window on:keydown|preventDefault={keyDown} />
 
-<SEO {pageTitle} {metadescription} {siteLanguage} />
+<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
 
-<div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
+<div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class=" border border-linkGrey" />
 	<h1 class="text-xl mt-10 text-center">Recommendations:</h1>
 	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">

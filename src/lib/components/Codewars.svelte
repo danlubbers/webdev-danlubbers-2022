@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import connect from '$lib/data/connect.json';
 
 	const codewars = connect.find((connect) => connect.name === 'Codewars');

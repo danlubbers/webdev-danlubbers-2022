@@ -1,13 +1,13 @@
-<script>
+<script lang="ts">
 	import Recommendations from '$lib/components/Recommendations.svelte';
-	import SEO from '$lib/components/SEO.svelte';
+	// import SEO from '$lib/components/SEO.svelte';
 
-	const pageTitle = 'Dan Lubbers | Web Developer';
-	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	const siteLanguage = 'en';
+	// const pageTitle = 'Dan Lubbers | Web Developer';
+	// const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
+	// const siteLanguage = 'en';
 </script>
 
-<SEO {pageTitle} {metadescription} {siteLanguage} />
+<!-- <SEO {pageTitle} {metadescription} {siteLanguage} /> -->
 
 <div class="flex flex-col">
 	<p>
