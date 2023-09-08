@@ -1,13 +1,8 @@
-<script>
-	import SEO from '$lib/components/SEO.svelte';
+<script lang="ts">
 	import recommendations from '$lib/data/recommendations.json';
 	import Icon from 'svelte-awesome';
 	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
 	import chevronRight from 'svelte-awesome/icons/chevronRight';
-
-	const pageTitle = 'Dan Lubbers | Recommendations Page';
-	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	const siteLanguage = 'en';
 
 	let recommendationList = recommendations;
 
@@ -25,7 +20,7 @@
 		];
 	};
 
-	const keyDown = (e) => {
+	const keyDown = (e: any) => {
 		if (e.key === 'ArrowLeft') {
 			recommendationList = [
 				recommendationList[recommendationList.length - 1],
@@ -41,11 +36,9 @@
 	};
 </script>
 
-<svelte:window on:keydown|preventDefault={keyDown} />
+<svelte:window on:keydown={keyDown} />
 
-<SEO {pageTitle} {metadescription} {siteLanguage} />
-
-<div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
+<div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class=" border border-linkGrey" />
 	<h1 class="text-xl mt-10 text-center">Recommendations:</h1>
 	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
@@ -54,7 +47,7 @@
 				<div class="w-full mt-10">
 					<a href={linkedInURL} class="flex flex-col items-center" target="_blank" rel="noreferrer">
 						<h1 class="text-xl font-bold">{name}</h1>
-						<h3 class="my-2">Title: {title}</h3>
+						<h2 class="my-2">Title: {title}</h2>
 					</a>
 					<p>"{recommendationText}"</p>
 				</div>

@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
 	import Icon from 'svelte-awesome';
 	import chevronLeft from 'svelte-awesome/icons/chevronLeft';
 	import chevronRight from 'svelte-awesome/icons/chevronRight';
 
-	export let projects;
+	export let projects: any;
 
 	const leftArrow = () => {
 		projects = [projects[projects.length - 1], ...projects.slice(0, projects.length - 1)];
@@ -13,7 +13,7 @@
 		projects = [...projects.slice(1, projects.length), projects[0]];
 	};
 
-	const keyDown = (e) => {
+	const keyDown = (e: any) => {
 		if (e.key === 'ArrowLeft') {
 			projects = [projects[projects.length - 1], ...projects.slice(0, projects.length - 1)];
 		}
@@ -23,9 +23,9 @@
 	};
 </script>
 
-<svelte:window on:keydown|preventDefault={keyDown} />
+<svelte:window on:keydown={keyDown} />
 
-<div class="w-full relative flex flex-col md:overflow-x-hidden " id="carousel-container">
+<div class="w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class="flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each projects as { client, position, tech, details, githubRepo, image, url }}
 			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col text-left">

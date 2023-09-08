@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Logo from '$lib/components/Logo.svelte';
 	import { page } from '$app/stores';
 
@@ -35,7 +35,13 @@
 		<Logo width="2000" />
 	</a>
 	<nav class="mt-8 flex items-center justify-center md:hidden">
-		<div class="h-10 grid place-items-center" on:click={mobileNavHandler}>
+		<div
+			class="h-10 grid place-items-center"
+			on:keypress={mobileNavHandler}
+			on:click={mobileNavHandler}
+			role="button"
+			tabindex="0"
+		>
 			<span class:active={activeHamburger} />
 			<span class:active={activeHamburger} />
 			<span class:active={activeHamburger} />

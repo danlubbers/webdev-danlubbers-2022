@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import SEO from '$lib/components/SEO.svelte';
 	import socialMedia from '$lib/data/connect.json';
 	import Icon from 'svelte-awesome';
@@ -9,11 +9,10 @@
 	import camera from 'svelte-awesome/icons/camera';
 	import cog from 'svelte-awesome/icons/cog';
 
-	const pageTitle = 'Dan Lubbers | Connect Page';
+	const pageTitle = 'Dan Lubbers | Connect';
 	const metadescription = 'Dan Lubbers is a Web Developer, Photographer, & Retoucher';
-	const siteLanguage = 'en';
 
-	const logoLoop = (logo) => {
+	const logoLoop = (logo: string | null) => {
 		switch (logo) {
 			case 'githubSquare':
 				return githubSquare;
@@ -31,7 +30,7 @@
 	};
 </script>
 
-<SEO {pageTitle} {metadescription} {siteLanguage} />
+<SEO {pageTitle} {metadescription} />
 
 <div class="w-full mb-5 flex flex-col justify-start">
 	<p class="md:pl-5 font-medium">
@@ -44,7 +43,7 @@
 		<ul>
 			{#each socialMedia as { name, url, logo }}
 				<li class="my-4 text-xl">
-					<a class="flex flex-row " href={url} target="_blank" rel="noreferrer"
+					<a class="flex flex-row" href={url} target="_blank" rel="noreferrer"
 						><Icon data={logoLoop(logo)} scale={2} />
 						<p class="ml-4">{name}</p></a
 					>
