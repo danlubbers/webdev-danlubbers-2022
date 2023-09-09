@@ -9,4 +9,6 @@
 
 <SEO {pageTitle} {metadescription} />
 
-<Carousel {projects} />
+<div class="w-full md:h-3/4 relative flex flex-col md:overflow-x-hidden">
+	<Carousel {projects} />
+</div>

@@ -8,7 +8,7 @@
 
 <SEO {pageTitle} {metadescription} />
 
-<div class="flex flex-col">
+<div class="md:h-3/4 md:overflow-x-hidden md::overflow-x-visible">
 	<p>
 		Dan Lubbers is a Full stack web developer with 17+ years of experience photographing and
 		retouching in the studio commercial, editorial and outdoor gear industries. Collaborated with

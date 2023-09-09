@@ -25,7 +25,7 @@
 
 <svelte:window on:keydown={keyDown} />
 
-<div class="w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
+<div id="carousel-container">
 	<div class="flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each projects as { client, position, tech, details, githubRepo, image, url }}
 			<div class="first:mt-0 my-10 md:my-0 px-0 md:px-10 min-w-full flex flex-col text-left">

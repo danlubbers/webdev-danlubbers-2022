@@ -40,7 +40,7 @@
 
 <div class="mt-10 w-full relative flex flex-col md:overflow-x-hidden" id="carousel-container">
 	<div class=" border border-linkGrey" />
-	<h1 class="text-xl mt-10 text-center">Recommendations:</h1>
+	<h1 class="text-xl mt-10 mb-4 text-center">Recommendations:</h1>
 	<div class="md:hidden flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
 		{#each recommendationList as { name, title, linkedInURL, recommendationText }}
 			<div class="first:mt-0 mb-10 min-w-full flex flex-col justify-end">
@@ -55,7 +55,7 @@
 			<div class="last:hidden md:hidden border border-linkGrey" />
 		{/each}
 	</div>
-	<div class="hidden md:flex flex-col md:flex-row flex-nowrap" id="carousel-projects">
+	<div class="hidden md:flex flex-col md:flex-row flex-nowrap items-start" id="carousel-projects">
 		{#each recommendationList as { name, image, linkedInURL }}
 			<div class="min-w-full flex flex-col justify-end">
 				<div class="w-full flex justify-center">
@@ -68,12 +68,12 @@
 		{/each}
 	</div>
 	<button
-		class="hidden md:block absolute top-2/3 left-0"
+		class="hidden md:block absolute top-1/2 left-0"
 		on:click={leftArrow}
 		aria-label="Left Arrow"><Icon data={chevronLeft} scale={1.5} /></button
 	>
 	<button
-		class="hidden md:block absolute top-2/3 right-0"
+		class="hidden md:block absolute top-1/2 right-0"
 		on:click={rightArrow}
 		aria-label="Right Arrow"><Icon data={chevronRight} scale={1.5} /></button
 	>
